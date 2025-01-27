@@ -11,7 +11,7 @@ Este repositorio contiene soluciones a los desafíos de [CryptoHack](https://cry
 
 **Autor:** [Alexander Luna](https://github.com/Alexander-Luna)  
 
-<img src="https://cryptohack.org/static/img/cryptohack.jpg" width="300" align="right" alt="CryptoHack Logo">
+<img src="https://cryptohack.org/static/img/main.png" width="300" align="right" alt="CryptoHack Logo">
 
 ---
 
