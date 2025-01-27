@@ -75,20 +75,45 @@ El repositorio está organizado de la siguiente manera:
 
 ```plaintext
 ├── solutions/
-│   ├── Introduction/
-│   │   ├── Solucion1.py
-│   │   ├── Solucion2.py
-│   │   └── SolucionN.py
-│   ├── General/
-│   │   ├── Solucion1.py
-│   │   ├── Solucion2.py
-│   │   └── SolucionN.py
-│   └── SymmetricCiphers/
-│       ├── rsa.py
-│       ├── elliptic_curves.py
-│       └── README.md
-├── tests/
-│   └── test_solutions.py
+│   ├── 1_Introduction/
+│   │   ├── 1_Theme1
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   │   ├── 2_Theme2
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   │   ├── N_ThemeN
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   ├── 2_General/
+│   │   ├── 1_Theme1
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   │   ├── 2_Theme2
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   │   ├── N_ThemeN
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   └── 3_SymmetricCiphers/
+│   │   ├── 1_Theme1
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   │   ├── 2_Theme2
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
+│   │   ├── N_ThemeN
+│   │   │   ├── Solucion1.py
+│   │   │   ├── Solucion2.py
+│   │   │   └── SolucionN.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
