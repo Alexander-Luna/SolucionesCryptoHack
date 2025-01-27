@@ -8,5 +8,15 @@
 
 # Dada la cuerda label, XOR cada carácter con el entero 13. Convierta estos enteros a una cadena y envíe el indicador como crypto{new_string}.
 
-#  El Python pwntools la biblioteca tiene una conveniente xor() función que puede XOR juntos datos de diferentes tipos y longitudes. Pero primero, es posible que desee implementar su propia función para resolver esto.
+# NOTA: El Python pwntools la biblioteca tiene una conveniente xor() función que puede XOR juntos datos de diferentes tipos y longitudes. Pero primero, es posible que desee implementar su propia función para resolver esto.
 
+# --------------------------SOLUCIÓN--------------------------
+from pwn import *
+def xor_cadena(s: str, key: int) -> str:
+    return ''.join([chr(ord(c) ^ key) for c in s])
+
+cadena_original = "label"
+clave = 13
+
+flag = xor_cadena(cadena_original, clave)
+print("Flag:\n", flag.encode('utf-8'))

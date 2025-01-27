@@ -3,3 +3,5 @@
 PyCryptodome
 # Para el ejercicio de General/Solucion6
 pwntools
+# Para el ejercicio de General/XOR/Solucion5
+Pillow
