@@ -75,15 +75,15 @@ El repositorio está organizado de la siguiente manera:
 
 ```plaintext
 ├── solutions/
-│   ├── introduction/
-│   │   ├── XOR.py
-│   │   ├── modular_arithmetic.py
-│   │   └── README.md
-│   ├── classical_ciphers/
-│   │   ├── caesar_cipher.py
-│   │   ├── vigenere.py
-│   │   └── README.md
-│   └── modern_crypto/
+│   ├── Introduction/
+│   │   ├── Solucion1.py
+│   │   ├── Solucion2.py
+│   │   └── SolucionN.py
+│   ├── General/
+│   │   ├── Solucion1.py
+│   │   ├── Solucion2.py
+│   │   └── SolucionN.py
+│   └── SymmetricCiphers/
 │       ├── rsa.py
 │       ├── elliptic_curves.py
 │       └── README.md

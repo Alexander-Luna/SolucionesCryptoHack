@@ -1,0 +1,5 @@
+
+# Para la solución de General/Solucion4.py
+PyCryptodome
+# Para el ejercicio de General/Solucion6
+pwntools
