@@ -5,3 +5,5 @@ PyCryptodome
 pwntools
 # Para el ejercicio de General/XOR/Solucion5
 Pillow
+# Para el ejercicio de General/DataFormats/Solucion4
+pyopenssl

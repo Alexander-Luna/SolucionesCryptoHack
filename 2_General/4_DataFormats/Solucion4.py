@@ -39,12 +39,12 @@ if __name__ == "__main__":
     if cert_info:
         cert_id = cert_info[0]["id"]
         pem_cert = download_certificate(cert_id)
-        print("✅ El certificado es:", pem_cert)
+        print("El certificado es:", pem_cert)
         
         cn = extract_common_name(pem_cert)
-        print("✅ El subdominio del certificado es:", cn)
+        print("El subdominio del certificado es:", cn)
         
         flag = fetch_flag_from_cn(cn)
-        print("🏁 Bandera:", flag)
+        print("Bandera:", flag)
     else:
-        print("❌ No se encontró información del certificado.")
+        print("No se encontró información del certificado.")
